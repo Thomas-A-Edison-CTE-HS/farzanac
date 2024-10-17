@@ -16,4 +16,5 @@ p {
 }
 ol {
     color:rgb(67, 24, 107);
+    text-decoration: dashed honeydew;
 }
