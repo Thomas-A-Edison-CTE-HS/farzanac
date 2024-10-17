@@ -1,0 +1,14 @@
+body {
+    font-family: 'Times New Roman';
+    background-color: rgb(245, 218, 239);
+}
+h1 {
+    font-weight: bolder;
+    text-shadow: rgb(189, 136, 189);
+    text-align: center;
+}
+h2 {
+    color:rgb(122, 68, 114);
+    text-decoration: dotted black;
+    
+}
