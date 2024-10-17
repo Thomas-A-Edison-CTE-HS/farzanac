@@ -7,5 +7,11 @@ h1 {
 }
 p {
     font-family:'Lucida Sans Regular';
-   color: h;
+   color: darkred;
+}
+h3 {
+    text-shadow: 2px -2px orangered;
+}
+h4 {
+    text-decoration: underline;
 }
