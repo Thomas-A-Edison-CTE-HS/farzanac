@@ -9,6 +9,7 @@ body {
     text-shadow: 3px -3px #3a1313;
   }
   h2 {
+    text-align: center;
     color: #b48a48;
     text-decoration: underline;
   }
