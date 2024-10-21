@@ -1,0 +1,29 @@
+body {
+    background-color: #f8e3c9;
+    font-family: cursive;
+    border-style: solid;
+  }
+  h1 {
+    color: brown;
+    text-align: center;
+    text-shadow: 3px -3px #3a1313;
+  }
+  h2 {
+    color: #b48a48;
+    text-decoration: underline;
+  }
+  h3 {
+    color: darkred;
+    font-size: 17;
+  }
+  p {
+    font-family: cursive;
+    color: #9b5856
+  }
+  h4 {
+    color: #8d7147;
+  }
+  ol {
+    font-family: cursive;
+    color: #b48a48;
+  }
