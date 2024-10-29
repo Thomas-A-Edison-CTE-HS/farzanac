@@ -1,0 +1,93 @@
+.title {
+    text-align: center;
+    color:white;
+    font-size: 16px;
+    border: solid;
+    border-color: forestgreen;
+    background-color: forestgreen;
+  }
+  
+  /* style for the featured species and conservation efforts */
+  .container {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center; 
+    background-color: #fffed5;
+  }
+  
+  
+  /* style for the content inside the featured container */
+  .text1 {
+    background-color: #fffed5;
+    text-align: center;
+    background:  #fffed5;
+  }
+  
+  
+  /* gallery style */
+  .image {
+    border: solid;
+    background-color: lightgray;
+    text-align: center;
+    margin: 1px;
+    padding: 10px;
+    width: 300px;
+  }
+  .container1 { 
+    display: flex;;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin: 20px;
+    flex-direction: row;
+  }
+  
+  /* style for each animal info card */
+  .text2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  
+  
+  /* style for the paragraph text in the animal info card */
+  .text2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  
+  
+  /* style for the footer containing the images credit */
+    .credit {
+     border: solid;
+      border-color:forestgreen;
+      background-color:forestgreen;
+      color: white;
+      text-align: center;
+    }
+  
+  
+  /* DO NOT EDIT CSS CODE BELOW */
+  
+  /* body style */
+  body {
+    font-family: Verdana, sans-serif;
+  }
+  
+  /* h2 style */
+  h2 {
+    color: #003E1F;
+  }
+  
+  /* h3 style */
+  h3 {
+    color: #053C5E;
+    margin-bottom: 10px;
+  }
+  
+  /* style for images */
+  img {
+    width: auto;
+    height: 200px;
+    border: 2px solid #003E1F;
+  }
