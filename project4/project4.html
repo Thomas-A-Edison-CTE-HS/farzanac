@@ -1,63 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 4</title>
-    <link rel="stylesheet" href="project4.css"
-</head>
-<body>
+    <title>Spot the Difference Game</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="prj4.css">
 
-  <div class="background">
-    <div class="banner">
-      <h1> Thomas A. Edison Cte Hs </h1>
-      <h2> Web Devolpment</h2>
-      <h2>Final Project</h2>
-      <h2>November 2024</h2>
-      <h2>Farzana Chinapen</h2>
+    <div class="background">
+      <div class="title">
+        <h1>Spot The Difference!</h1>
+      </div>
+      <div class="background2">
+      <div class="headings">
+        <h1>Thomas A. Edison CTE HS</h1>
+        <h2>Web Development</h2>
+        <h2>Final Project </h2>
+        <h2>November 2024</h2>
+        <h2>Cloud Refazo</h2>
+      </div>
+      <img class="imgofme" src="avatar.png" alt="Image of Me" width="35%;">
+      </div>
     </div>
     
-    <div class="game-section">
+    <div class="container2">
+    <div class="wave" id="easy-level">
+
       <h2>Instructions</h2>
-      <p>Spot the difference!!</p>
-      <p>Complete each level by spotting all the differences to win</p>
-      <p>Hover over the next level when you complete it</p>
-        
-        <!-- Level 1 -->
-        <div class="level">
-            <h3>Level 1</h3>
-            <p>Find the differences between the two images below.</p>
-            <div class="images">
-              <img src="game1.png" alt="Easy Level Image" width="500"
 
-              onmouseover="this.src='game2.png';"
-       
-              onmouseout="this.src='game1.png';">
-            </div>
-        </div>
-        
-        <!-- Level 2 -->
-        <div class="level">
-            <h3>Level 2</h3>
-            <p>Find the differences between the two images below.</p>
-            <img src="game3.png" alt="Easy Level Image" width="500"
+      <p>Hover over this section to reveal more details about the game, that way you can follow the instructions carefully to play each level!</p>
 
-       onmouseover="this.src='game4.png';"
+      <p>In this game of, "Spot the Difference" there are 3 levels you can choose from depending on how difficult you'd like to play the game.</p>
 
-       onmouseout="this.src='game3.png';">
-        </div>
-        
-        <!-- Level 3 -->
-        <div class="level">
-            <h3>Level 3</h3>
-            <p>Find the differences between the two images below.</p>
-            <img src="game5.png" alt="Easy Level Image" width="500"
+      <p>These 3 levels are:</p>
 
-       onmouseover="this.src='game6.png';"
-
-       onmouseout="this.src='game5.png';">
-        </div>
+      <div class="ol">
+        <ol class="centered-list">
+          <li id="easy">Easy</li>
+          <li id="medium">Medium</li>
+          <li id="hard">Hard</li>
+        </ol>
+      </div>
+    
+    <p>Throughout each level, you are able to see multiple objects, you have only a few seconds to look at each of them. After that, BOOM! Your screen turns black and turns back on shortly after.</p>
+    <p>Only up to 3 out of all the objects have changed. As you progress through each level, spotting these differences will only get harder and harder. Can you spot the difference?</p>
     </div>
-</div>
-</body>
-</html>
+      
+      <div class="wave2" id="easy-level">
+        <h2>Easy Level</h2>
+        <!-- Rollover image for the 'Easy' level -->
+
+        <div class="level">
+
+          <h3>Spot the Difference! Difficulty: <span style="color: lightgreen">Easy</span></h3>
+
+          <img src="Easy_BEFORE.png" alt="Easy Level Image" width="500"
+
+               onmouseover="this.src='Easy_AFTER.png';"
+
+               onmouseout="this.src='Easy_BEFORE.png';">
+
+          <p>You have 5 seconds to view the items in the room. Drag the cursor out of the room once the 5 seconds are up!</p>
+
+        </div>
+      </div>
+      
+      <div class="wave3" id="medium-level">
+        <h2>Medium Level</h2>
+        <!-- Rollover image for the 'Easy' level -->
+
+        <div class="level">
+
+          <h3>Spot the Difference! Difficulty: <span style="color: orange">Medium</span></h3>
+
+          <img src="Medium_BEFORE.png" alt="Medium Level Image" width="500"
+               onmouseover="this.src='Medium_AFTER.png';"
+               onmouseout="this.src='Medium_BEFORE.png';">
+
+          <p>You have 5 seconds to view the items in the room. Drag the cursor out of the room once the 5 seconds are up!</p>
+
+        </div>
+      </div>
+      
+      <div class="wave4" id="hard-level">
+        <h2>Hard Level</h2>
+      </div>
+      
+    </div>
+      
+    <p id="Link-home-text">Here is the link to go to Home:</p>
+    <div id="link-home">
+      <a href="https://thomas-a-edison-cte-hs.github.io/farzanac/">Home</a>
+    </div>  
+    
+      </body>
+    </html>
