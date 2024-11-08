@@ -30,11 +30,12 @@ body {
    color: #333;
    font-size: 2.5em;
    font-weight: bold;
+   font-family: 'Courier New';
 }
 
 /* Game section styling */
 .game-section {
-   background-color: rgba(255, 255, 255, 0.9);
+   background-color: rgba(252, 222, 196, 0.9);
    padding: 20px;
    border-radius: 8px;
    width: 80%;
@@ -59,11 +60,13 @@ body {
    font-size: 1.5em;
    color: #555;
    margin-bottom: 10px;
+   font-family: 'Courier New';
 }
 
 .level p {
    color: #666;
    font-size: 1em;
+   font-family: 'Courier New';
 }
 
 
