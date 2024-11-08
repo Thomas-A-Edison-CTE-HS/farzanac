@@ -11,10 +11,16 @@ body {
   h2 {
     color:rgb(122, 68, 114);
     text-decoration: underline;
+    text-align: center;
   }
   p {
     color:rgb(137, 101, 158);
+    text-align: center;
   }
   ol {
     color:rgb(67, 24, 107);
+    text-align: center;
+  }
+  img {
+    margin: 50;
   }
