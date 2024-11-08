@@ -56,10 +56,10 @@ div {
  }
  
  .headings {
-   color: purple;
-   text-shadow: -2px 2px aqua;
+   color: rgb(12, 1, 1);
+   text-shadow: -2px 2px rgb(179, 146, 109);
    display: flex;
-   text-decoration: underline;
+   text-decoration: underline rgb(133, 105, 68);
    width: 600px;
    flex-direction: column;
    flex-wrap: wrap;
@@ -76,20 +76,20 @@ div {
  }
  
  .title {
-   border:  4px yellow dotted;
+   border:  3px rgb(167, 153, 77) dotted;
+   border-radius: 50px;
    color: white;
-   text-shadow: -2px 2px yellow;
-   display: flex;
    text-decoration: underline;
-   width: 575px;
+   text-shadow: -2px 2px rgb(255, 255, 255);
+   display: flex;
+   width: 560px;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: center;
    align-items: flex-end;
-   font-size: 30px;
+   font-size: 35px;
    text-align: center;
    margin: 20px;
-   border-radius: 100px;
    transition: transform 0.3s;
  }
  
@@ -168,9 +168,7 @@ div {
    transition: height 0.5s ease;  /* Adjust the speed for smooth expansion */
  }
  
- 
- /* Expanding effect on hover */
- 
+
  .wave:hover {
    height: 350px;  /* Adjust to fit content */
  }
@@ -191,61 +189,36 @@ div {
  }
  
  .wave2:hover {
- 
    height: 350px;
- 
  }
  
  .wave3 {
- 
    border: 4px solid #192A51;
- 
    background-color: darkgoldenrod;
- 
    text-shadow: 2px 2px darkorange;
- 
    text-decoration: underline;
- 
    color: orange;
- 
    text-align: center;
- 
    font-size: 0.9em;
- 
    height: 60px;
- 
    overflow: hidden;
- 
    width: 80%;
- 
    margin: 10px auto;
- 
    transition: height 0.5s ease;
- 
  }
  
  .wave3:hover {
- 
    height: 480px;
- 
  }
  
  .wave4 {
- 
    border: 4px solid #192A51;
- 
    background-color: darkred;
- 
    text-shadow: 2px 2px black;
- 
    text-decoration: underline;
- 
    color: red;
- 
    text-align: center;
- 
    font-size: 0.9em;
- 
    height: 60px;
  
    overflow: hidden;
@@ -259,7 +232,5 @@ div {
  }
  
  .wave4:hover {
- 
    height: 350px;
- 
  }
