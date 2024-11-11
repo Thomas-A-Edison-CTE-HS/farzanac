@@ -1,18 +1,14 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spot the Difference Game</title>
+    <link rel="icon" type="image/x-icon" href="avatar.png">
+    <link rel="stylesheet" href="project4.css">
   </head>
   <body>
-    <link rel="stylesheet" href="project4.css">
-
-    <div class="background">
+    <div class="container">
       <div class="title">
         <h1>Spot The Difference!</h1>
       </div>
-      <div class="background2">
+      <div class="container2">
         <div class="headings">
           <h1>Thomas A. Edison CTE HS</h1>
           <h2>Web Development</h2>
@@ -23,85 +19,36 @@
         <img class="imgofme" src="avatar.png" alt="Image of Me" width="35%;">
       </div>
     </div>
+    <div class="waveinstruct" id="instructions"> 
+      <h3 class="instructionstitle">Instructions</h3>
 
-    <div class="container2">
-      <div class="wave" id="easy-level">
-
-        <h2>Instructions</h2>
-
-        <p>Hover over this section to reveal more details about the game, that way you can follow the instructions carefully to play each level!</p>
-
-        <p>In this game of, "Spot the Difference" there are 3 levels you can choose from depending on how difficult you'd like to play the game.</p>
-
-        <p>These 3 levels are:</p>
-
-        <div class="ol">
-          <ol class="centered-list">
-            <li id="easy">Easy</li>
-            <li id="medium">Medium</li>
-            <li id="hard">Hard</li>
-          </ol>
-        </div>
-
-        <p>In each level you have only a few seconds to look at all of the objects. Then, Your screen turns black and turns back on shortly after.</p>
-        <p>Only 3 out of all the objects have changed. As you progress through each level, spotting these differences will only more difficult. Can you spot the difference?</p>
-      </div>
-
-      <div class="wave2" id="easy-level">
-        <h2>Easy Level</h2>
-        <!-- Rollover image for the 'Easy' level -->
-
-        <div class="level">
-
-          <h3>Spot the Difference! Difficulty: <span style="color: lightgreen">Easy</span></h3>
-
-          <img src="game1.png" alt="Easy Level Image" width="500"
-
-               onmouseover="this.src='game2.png';"
-
-               onmouseout="this.src='game1.png';">
-
-          <p>You have 5 seconds to view the items in the room. Drag the cursor out of the room once the 5 seconds are up!</p>
-
-        </div>
-      </div>
-
-      <div class="wave3" id="medium-level">
-        <h2>Medium Level</h2>
-        <!-- Rollover image for the 'Easy' level -->
-
-        <div class="level">
-
-          <h3>Spot the Difference! Difficulty: <span style="color: orange">Medium</span></h3>
-
-          <img src="game3.png" alt="Medium Level Image" width="500"
-               onmouseover="this.src='game4.png';"
-               onmouseout="this.src='game3.png';">
-
-          <p>You have 5 seconds to view the items in the room. Drag the cursor out of the room once the 5 seconds are up!</p>
-
-        </div>
-      </div>
-
-      <div class="wave4" id="hard-level">
-        <h2>Hard Level</h2>
-        <div class="level">
-
-          <h3>Spot the Difference! Difficulty: <span style="color: orange">Medium</span></h3>
-
-          <img src="game5.png" alt="Hard Level Image" width="500"
-               onmouseover="this.src='game6.png';"
-               onmouseout="this.src='game5.png';">
-
-          <p>You have 5 seconds to view the items in the room. Drag the cursor out of the room once the 5 seconds are up!</p>
-
-        </div>
-      </div>
+      <p> In this game you will spot the difference between the obejects in both images. </p>
+        <p> You will have 5 seconds to look at the first image before it switches to the second. </p>
+      <p> There are three levels, easy, medium and hard. </p>
+    </div>
+<div class="waveeasy" id="easylevel"> 
+  <h3> Easy </h3>
+  <p>You have 10 seconds to view the images. Remove your mouse from the image once the time is up.</p>
+  <div class="easy">
+  <img class="easy" src="game1.png"
+       onmouseover="this.src='game2.png';"
+       onmouseout="this.src='game1.png';" width="900">
+  </div>
+    </div>
+    <div class="wavemedium" id="mediumlevel"> 
+    <h3> Medium </h3>
+      <p> You have 5 seconds to view the images. Remove your mouse from the image once the time is up.</p>
+      <img class="medium" src="game3.png" 
+           onmouseover="this.src='game4.png';"
+           onmouseout="this.src='game3.png';" width="900">
+    </div>
+    <div class="wavehard" id="hardlevel"> 
+      <h3>Hard</h3>
+      <p> You have 3 seconds to view the images. Remove your mouse from the image once the time is up. </p>
+      <img class="hard" src="game5.png" 
+           onmouseover="this.src='game6.png';"
+           onmouseout="this.src='game5.png';" width="900">
+    </div>
     
-      <hr>
-      <div id="link-home">
-        <a href="https://thomas-a-edison-cte-hs.github.io/farzanac/">Home</a>
-      </div>  
-
-      </body>
-    </html>
+  </body>
+</html>

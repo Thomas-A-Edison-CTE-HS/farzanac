@@ -23,7 +23,7 @@ body {
  #Link-home-text {
    text-align: center;
    font-size: large;
- }
+ }   
  
  .background{
    background-image: url('background.png');
@@ -110,127 +110,102 @@ body {
    transform: scale(1.05);
  }
  
- .ol {
-   text-align: center;
-   font-size: large;
-   border: none;
-   justify-content: center;
-   align-items: center;
-   text-align: center
- }
+}
+#instructions {
+text-align: center;
+  color: whitesmoke;
+}
+.waveinstruct {
+  border: 1px solid #192A51;
+  background-color: #392fc4;
+  color: whitesmoke;
+  text-shadow: -2ox 2px white;
+  text-align: center;
+  font-size: 0.9em;
+  height: 50px;
+  overflow: hidden;
+  width: 80%;
+  margin: 10px auto;
+  transition: height 0.5s ease;
+}
+.waveinstruct:hover {
+  height: 230px;
+}
+.instructionstitle {
+  text-align: center;
+}
+#easylevel {
+  text-align: center;
+}
+.waveeasy {
+  border: 1px solid #192A51;
+  background-color: #49d74e;
+  color: rgb(35, 115, 17);
+  text-align: center;
+  font-size: 0.9em;
+  height: 50px;
+  overflow: hidden;
+  width: 80%;
+  margin: 10px auto;
+  transition: height 0.5s ease; 
+}
+
+.waveeasy:hover {
+  height: 700px;
+}
+
+.easy {
+  transition: opacity 0.5 ease;
+}
+
+#mediumlevel {
+  text-align: center;
+}
+
+.wavemedium{
+  border: 1px solid #192A51;
+  background-color: #eed03a;
+  color: rgb(173, 75, 0);
+  text-align: center;
+  font-size: 0.9em;
+  height: 50px;
+  overflow: hidden;
+  width: 80%;
+  margin: 10px auto;
+  transition: height 0.5s ease; 
+}
+
+.wavemedium:hover {
+  height: 700px;
+}
+
+.medium {
+  transition: opacity 0.5 ease;
+}
+
+#hardlevel {
+  text-align: center;
+}
+
+.wavehard {
+  border: 1px solid #192A51;
+  background-color: #d14343;
+  color: rgb(84, 11, 11);
+  text-align: center;
+  font-size: 0.9em;
+  height: 50px;
+  overflow: hidden;
+  width: 80%;
+  margin: 10px auto;
+  transition: height 0.5s ease; 
+}
+.wavehard:hover {
+  height: 700px;
+}
+.hard {
+  transition: opacity 0.5 ease;
+}
+
+
+
  
- .centered-list {
-   display: inline-block; /* Make the list inline-block */
-   text-align: left; /* Optional: left-align the list items for better readability */
- }
- 
- #easy {
-   color: rgb(84, 226, 17);
-   text-shadow: 1px 1px white;
- }
- 
- #medium {
-   color: rgb(255, 165, 0);
-   text-shadow: 1px 1px rgb(214, 120, 4);
- }
- 
- #hard {
-   color: rgb(255, 0, 0);
-   text-shadow: 1px 1px black;
- }
- 
- .container2{
-   background-image: url('background.png');
-   background-size: cover; /* Ensures the image covers the entire element */
-   background-repeat: no-repeat; /* Prevents the image from repeating */
-   background-position: center; /* Centers the image */
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-   height: 1000px;
- }
- 
- .wave {
- 
-   border: 4px solid #192A51;
-   background-color: rgb( 159 , 237, 259);
-   text-shadow: 2px 2px white;
-   text-decoration: underline;
-   color: rgb( 68 , 200, 246);
-   text-align: center;
-   font-size: 0.9em;
-   height: 60px;
-   overflow: hidden;
-   width: 80%;
-   margin: 10px auto;
-   transition: height 0.5s ease;  /* Adjust the speed for smooth expansion */
- }
- 
- 
- .wave:hover {
-   height: 350px;  /* Adjust to fit content */
- }
- 
- .wave2 {
-   border: 4px solid #192A51;
-   background-color: greenyellow;
-   text-shadow: 2px 2px white;
-   text-decoration: underline;
-   color: limegreen;
-   text-align: center;
-   font-size: 0.9em;
-   height: 60px;
-   overflow: hidden;
-   width: 80%;
-   margin: 10px auto;
-   transition: height 0.5s ease;
- }
- 
- .wave2:hover {
-   height: 350px;
- }
- 
- .wave3 {
-   border: 4px solid #192A51;
-   background-color: darkgoldenrod;
-   text-shadow: 2px 2px darkorange;
-   text-decoration: underline;
-   color: orange;
-   text-align: center;
-   font-size: 0.9em;
-   height: 60px;
-   overflow: hidden;
-   width: 80%;
-   margin: 10px auto;
-   transition: height 0.5s ease;
- }
- 
- .wave3:hover {
-   height: 480px;
- }
- 
- .wave4 {
-   border: 4px solid #192A51;
-   background-color: #ba4040;
-   text-shadow: -2px 2px #dd7d7d;
-   text-decoration: underline;
-   color: red;
-   text-align: center;
-   font-size: 0.9em;
-   height: 60px;
- 
-   overflow: hidden;
- 
-   width: 80%;
- 
-   margin: 10px auto;
- 
-   transition: height 0.5s ease;
- 
- }
- 
- .wave4:hover {
-   height: 350px;
- }
