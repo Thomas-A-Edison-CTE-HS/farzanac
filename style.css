@@ -1,48 +1,59 @@
 body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f0f0f0;
-      margin: 0;
-      padding: 40px;
-      text-align: center;
-    }
+  font-family: Arial, sans-serif;
+  background-color: #d4efe9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #067e70;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.profile-header img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+.profile-header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+.profile-header p {
+  font-size: 1.1em;
+  }
+  .button-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 20px auto;
+  }
 
-    h1 {
-      color: #333;
-      margin-bottom: 10px;
-    }
+  .button-list button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
 
-    p {
-      color: #666;
-      margin-bottom: 40px;
-    }
-
-    .projects {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-
-    .project-button {
-      background-color: #007BFF;
-      color: white;
-      padding: 15px 25px;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      min-width: 180px;
-    }
-
-    .project-button:hover {
-      background-color: #0056b3;
-    }
-
-    @media (max-width: 600px) {
-      .project-button {
-        width: 100%;
-        max-width: 300px;
-      }
-    }
-  
+  .button-list button:hover {
+    background-color: #0056b3;
+  }
