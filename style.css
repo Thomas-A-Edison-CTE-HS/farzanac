@@ -1,12 +1,12 @@
 body {
   font-family: 'Franklin Gothic Medium';
-  background-color: #d4efe9;
+  background-color: #824d4d;
   color: #333;
   margin: 0;
   padding: 0;
 }
 header {
-  background-color: #067e70;
+  background-color: #720606;
   color: white;
   padding: 10px 0;
   text-align: center;
@@ -52,7 +52,7 @@ header {
   .button-list button {
     padding: 12px;
     font-size: 16px;
-    background-color: #167b7f;
+    background-color: #7f1616;
     color: white;
     border: none;
     border-radius: 6px;
@@ -61,5 +61,5 @@ header {
   }
 
   .button-list button:hover {
-    background-color: hsl(185, 28%, 16%);
+    background-color: hsl(0, 28%, 16%);
   }
